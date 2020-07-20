@@ -114,3 +114,65 @@ a{
   text-align: center;
 }
 /* Main 4/6 */
+
+/* Main 5/6 */
+.main-five{
+  text-align: center;
+  background-color: lightblue;
+}
+.main-five-list{
+  text-align: left;
+}
+.main-five-list-right{
+  text-align: right;
+}
+.main-five-list-border{
+  border-bottom: 1px solid white;
+}
+/* Main 5/6 */
+
+/* Main 6/6 */
+.main-six{
+  text-align: center;
+  background-color: lightgrey;
+}
+/* Main 6/6 */
+
+/* Parte superiore del footer */
+ .footer-top{
+   background-color: blue;
+   text-align: center;
+ }
+ /* Parte superiore del footer */
+
+ /* Parte inferiore del footer */
+.footer-bottom{
+  background-color: lightblue;
+}
+.footer-bottom ul{
+  padding-left:0;
+  padding-top: 10px;
+}
+.padd{
+  padding-left: 0;
+}
+.logo{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.footer-bottom-text{
+  position: fixed;
+  bottom: 10px;
+  right: 120px;
+  z-index: 1;
+  width: 500px;
+  height: 100px;
+  background-color: white;
+  border-radius: 5%;
+}
+/* Parte inferiore del footer */
