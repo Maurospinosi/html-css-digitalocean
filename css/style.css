@@ -1,21 +1,26 @@
 body{
  font-family: 'Open Sans', sans-serif;
 }
-@media screen and (max-width:768px) {
- .hamburger{
-   text-align: right;
- }
-}
-@media screen and (min-width:768px) and (max-width:992px){
-  .hamburger{
-    text-align: right;
+@media screen and (max-width:768px){
+  .header-nav{
+    display: none;
   }
 }
-@media screen and (min-width:992px){
+@media screen and (min-width:769px) and (max-width:992px){
+  .header-nav{
+    display: none;
+  }
+}
+@media screen and (min-width:993px){
  .hamburger{
    display: none;
-   text-align: right;
  }
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
 }
 /* parte superiore dell'header */
 .header-top{
@@ -24,8 +29,11 @@ body{
   position: fixed;
   top:0;
   left:0;
-  index:1;
+  z-index:1;
   width: 100%;
   background-color: white;
+}
+.header-nav li{
+ display: inline-block;
 }
 /* parte superiore dell'header */
