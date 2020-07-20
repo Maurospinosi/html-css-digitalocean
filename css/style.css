@@ -22,7 +22,7 @@ li{
 a{
   text-decoration: none;
 }
-/* parte superiore dell'header */
+/* Parte superiore dell'header */
 .header-top{
   line-height: 80px;
   height: 80px;
@@ -36,4 +36,18 @@ a{
 .header-nav li{
  display: inline-block;
 }
-/* parte superiore dell'header */
+/* Parte superiore dell'header */
+
+/* Parte inferiore dell'header */
+.jumbotron{
+  background-color: blue;
+  margin-top: 80px;
+}
+.header-box{
+  background-color: white;
+  border-radius: 5%;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+/* Parte inferiore dell'header */
