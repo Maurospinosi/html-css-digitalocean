@@ -1,6 +1,15 @@
 body{
  font-family: 'Open Sans', sans-serif;
 }
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.pad{
+  padding:30px 0;
+}
 @media screen and (max-width:768px){
   .header-nav{
     display: none;
@@ -15,12 +24,6 @@ body{
  .hamburger{
    display: none;
  }
-}
-li{
-  list-style: none;
-}
-a{
-  text-decoration: none;
 }
 /* Parte superiore dell'header */
 .header-top{
@@ -42,12 +45,40 @@ a{
 .jumbotron{
   background-color: blue;
   margin-top: 80px;
+  margin-bottom: 0;
 }
 .header-box{
   background-color: white;
   border-radius: 5%;
-  margin: auto;
   height: 100%;
   width: 100%;
 }
 /* Parte inferiore dell'header */
+
+/* Main 1/6 */
+.main-one{
+  background-color: lightgrey;
+  text-align: center;
+  padding: 30px 0;
+}
+.square{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  margin: auto;
+}
+/* Main 1/6 */
+
+/* Main 2/6 */
+.main-two-text{
+  text-align: center;
+}
+.main-two-list{
+ padding-left: 5px;
+}
+.main-two-list li{
+  border-left: 1px solid lightgrey;
+  padding-left: 5px;
+  padding-top: 15px;
+}
+/* Main 2/6 */
