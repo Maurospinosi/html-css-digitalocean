@@ -25,6 +25,10 @@ a{
     width: 400px;
     height: 350px;
   }
+  .main-six-box{
+    height: 350px;
+    width: 350px;
+  }
 }
 @media screen and (min-width:769px) and (max-width:992px){
   .header-nav{
@@ -53,6 +57,9 @@ a{
  .main-three-box{
    width: 850px;
    height: 650px;
+ }
+ .footer-bottom ul{
+   margin: 0 20px;
  }
 }
 /* Parte superiore dell'header */
@@ -98,7 +105,7 @@ a{
 
 /* Parte inferiore dell'header */
 .jumbotron{
-  background-color: rgb(1, 88, 255);
+  background-color: rgb(0,74,255);
   margin-top: 80px;
   margin-bottom: 0;
 }
@@ -114,6 +121,7 @@ a{
 .jumbotron-text h1{
   font-weight: 700;
   color:white;
+  font-size: 60px;
 }
 .jumbotron-text p{
   color:white;
@@ -293,50 +301,71 @@ a{
 }
 .main-six h2{
   font-weight: 700;
+  padding-bottom: 100px;
 }
 .main-six-box{
   background-color: white;
   vertical-align: middle;
   display: inline-block;
+  height: 450px;
+  width: 500px;
+}
+.main-six-text-one{
+  color:rgb(92,106,136);
+  font-weight: 600;
+  line-height: 40px;
+  font-size: 20px;
+}
+.main-six-text-two{
+  color: rgb(3,28,78);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 10px;
+}
+.main-six-text-three{
+  color: rgb(3,28,78);
+  font-weight: 600;
+}
+.main-six-box a{
+  color:rgb(1, 88, 255);
+  line-height: 100px;
+  font-size: 15px;
 }
 /* Main 6/6 */
 
 /* Parte superiore del footer */
  .footer-top{
-   background-color: blue;
+   background-color: rgb(0,53,174);
    text-align: center;
  }
- .main-six-text-one{
-   color:rgb(92,106,136);
-   font-weight: 600;
-   line-height: 70px;
-   font-size: 20px;
- }
- .main-six-text-two{
-   color: rgb(3,28,78);
-   font-weight: 700;
-   font-size: 20px;
-   line-height: 10px;
- }
- .main-six-text-three{
-   color: rgb(3,28,78);
-   font-weight: 600;
- }
- .main-six-box a{
-   color:rgb(1, 88, 255);
-   line-height: 50px;
-   font-size: 15px;
- }
+.footer-top h2{
+  color: white;
+  font-weight: 700;
+  padding-bottom:20px;
+}
+.footer-top button{
+  color:rgb(1, 88, 255);
+  font-weight: 600;
+}
  /* Parte superiore del footer */
 
  /* Parte inferiore del footer */
 .footer-bottom{
-  background-color: lightblue;
+  background-color: rgb(3,28,78);
+}
+.copyright {
+  color:rgb(122,133,157);
+  font-weight: 500;
+}
+#proud{
+  color:rgb(90,104,135);
 }
 .footer-bottom ul{
   padding-left:0;
   padding-top: 10px;
+  color:white;
 }
+
 .padd{
   padding-left: 0;
 }
