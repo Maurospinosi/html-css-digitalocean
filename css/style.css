@@ -100,11 +100,15 @@ a{
 }
 .jumbotron-text h1{
   font-weight: 700;
-}
-.jumbotron-text h1, p{
   color:white;
 }
-.header-box p, h2{
+.jumbotron-text p{
+  color:white;
+}
+.header-box h2{
+  font-weight: 700;
+}
+.header-box p{
   font-weight: 700;
 }
 .header-box p{
@@ -137,20 +141,33 @@ a{
 
 /* Main 1/6 */
 .main-one{
-  background-color: lightgrey;
+  background-color: rgb(249,249,249);
   text-align: center;
 }
-.square{
-  height: 100px;
-  width: 100px;
-  background-color: red;
-  margin: auto;
+.main-one h4{
+  color: grey;
+  font-size: 13px;
+  font-weight: 600;
+}
+.main-one a{
+  color: rgb(87, 154, 255);
+  font-weight: 600;
+}
+.main-one a:hover{
+  text-decoration: none;
 }
 /* Main 1/6 */
 
 /* Main 2/6 */
 .main-two-text{
   text-align: center;
+}
+.main-two-text h2{
+  font-weight: 700;
+}
+.main-two-text p{
+  font-weight: 600;
+  color:grey;
 }
 .main-two-list{
  padding-left: 8px;
@@ -159,6 +176,11 @@ a{
   border-left: 1px solid lightgrey;
   padding-left: 5px;
   padding-top: 15px;
+  font-weight: 600;
+}
+.main-two-second-text h4{
+  font-weight: 700;
+  font-size: 15px;
 }
 /* Main 2/6 */
 
@@ -233,7 +255,7 @@ a{
 .padd{
   padding-left: 0;
 }
-.logo{
+/* .logo{
   position: fixed;
   bottom: 10px;
   right: 10px;
@@ -241,8 +263,8 @@ a{
   width: 100px;
   height: 100px;
   background-color: red;
-}
-.footer-bottom-text{
+} */
+/* .footer-bottom-text{
   position: fixed;
   bottom: 10px;
   right: 120px;
@@ -252,4 +274,4 @@ a{
   background-color: white;
   border-radius: 5%;
 }
-/* Parte inferiore del footer */
+/* Parte inferiore del footer */ */
