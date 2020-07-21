@@ -237,13 +237,30 @@ a{
 /* Main 4/6 */
 .main-four h2{
   text-align: center;
+  font-weight: 700;
+}
+.main-four h3{
+  font-weight: 600;
+  font-size: 18px;
+}
+.main-four p{
+  font-weight: 600;
+  color:rgb(92,106,136);
+}
+.main-four a{
+  font-weight: 600;
 }
 /* Main 4/6 */
 
 /* Main 5/6 */
 .main-five{
   text-align: center;
-  background-color: lightblue;
+  color:white;
+  background-image: linear-gradient(rgb(0,67,193), rgb(0,34,157) );
+}
+.main-five h2{
+  font-weight: 700;
+  font-size: 35px;
 }
 .main-five-list{
   text-align: left;
@@ -253,6 +270,19 @@ a{
 }
 .main-five-list-border{
   border-bottom: 1px solid white;
+}
+.main-five a{
+  color: rgb(0,213,209);
+  font-weight: 600;
+}
+.main-five i{
+  color: rgb(0,213,209);
+}
+#main-five-text-one{
+  font-weight: 700;
+}
+#main-five-text-two{
+  color: lightgrey;
 }
 /* Main 5/6 */
 
