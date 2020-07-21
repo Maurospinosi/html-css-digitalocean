@@ -39,8 +39,33 @@ a{
   width: 100%;
   background-color: white;
 }
+.header-top img{
+  height:29px;
+  width: 172px;
+}
 .header-nav li{
  display: inline-block;
+}
+.header-nav a{
+  color:black;
+  padding-right:10px;
+}
+.header-nav a:hover{
+  color:rgb(1, 99, 255);
+  text-decoration: none;
+}
+.header-top-button{
+  color:rgb(1, 99, 255);
+  border: rgb(1, 99, 255) 1px solid;
+  font-weight: 700;
+}
+.header-top-button:hover{
+  color:white;
+  background-color: rgb(1, 99, 255);
+}
+.hamburger{
+  font-size: 25px;
+  color:rgb(1, 99, 255);
 }
 /* Parte superiore dell'header */
 
@@ -55,6 +80,26 @@ a{
   border-radius: 5%;
   height: 100%;
   width: 100%;
+  text-align: center;
+}
+.jumbotron-text h1{
+  font-weight: 700;
+}
+.jumbotron-text h1, p{
+  color:white;
+}
+.header-box p, h2{
+  font-weight: 700;
+}
+.header-box p{
+  color:rgb(1, 99, 255);
+}
+.header-box-input{
+  text-align: left;
+  margin-top: 20px;
+}
+.header-box-input input{
+  padding-right: 50%;
 }
 /* Parte inferiore dell'header */
 
