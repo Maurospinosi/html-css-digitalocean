@@ -15,12 +15,15 @@ a{
     display: none;
   }
   .main-three-box-angle{
-    color: lightgrey;
+    color: rgb(249,249,249);
   }
   .header-box-input input{
     padding-right: 36%;
     width:95%;
-
+  }
+  .main-three-box{
+    width: 400px;
+    height: 350px;
   }
 }
 @media screen and (min-width:769px) and (max-width:992px){
@@ -30,7 +33,13 @@ a{
   .header-box-input input{
     padding-right: 45%;
     width:95%;
-
+  }
+  .main-three-box{
+    width: 700px;
+    height: 550px;
+  }
+  .main-three-box-angle{
+    color: rgb(249,249,249);
   }
 }
 @media screen and (min-width:993px){
@@ -40,6 +49,10 @@ a{
  .header-box-input input{
    width:95%;
    padding-right: 50%;
+ }
+ .main-three-box{
+   width: 850px;
+   height: 650px;
  }
 }
 /* Parte superiore dell'header */
@@ -167,7 +180,7 @@ a{
 }
 .main-two-text p{
   font-weight: 600;
-  color:grey;
+  color:rgb(92,106,136);
 }
 .main-two-list{
  padding-left: 8px;
@@ -178,33 +191,46 @@ a{
   padding-top: 15px;
   font-weight: 600;
 }
+.main-two-list a{
+  color:rgb(151, 159,178);
+}
 .main-two-second-text h4{
   font-weight: 700;
   font-size: 15px;
+}
+.main-two-second-text p{
+  color:rgb(92,106,136);
 }
 /* Main 2/6 */
 
 /* Main 3/6 */
 .main-three{
   text-align: center;
-  background-color: lightgrey;
+  background-color: rgb(249,249,249);
 }
-.main-three-box{
-  background-color: blue;
-  height: 200px;
-  width: 200px;
-  margin: auto;
-  display: inline-block;
-  margin-top:50px;
+.main-three h2{
+  font-weight: 700;
+}
+.main-three P{
+  font-weight: 600;
+  color:rgb(92,106,136);
 }
 .main-three-box-angle{
   font-size: 40px;
-  position: relative;
-  bottom:80px;
   padding: 0 10px;
 }
 .main-three-text{
   padding-top:15px;
+  font-weight: 700;
+  color:black;
+}
+.main-three-circle{
+  color: rgb(1, 88, 255);
+  background-color: rgb(249,249,249);
+}
+.main-three-circle:hover{
+  background-color: rgb(1, 88, 255);
+  border-radius: 100%;
 }
 /* Main 3/6 */
 
@@ -233,7 +259,15 @@ a{
 /* Main 6/6 */
 .main-six{
   text-align: center;
-  background-color: lightgrey;
+  background-color: rgb(249,249,249);
+}
+.main-six h2{
+  font-weight: 700;
+}
+.main-six-box{
+  background-color: white;
+  vertical-align: middle;
+  display: inline-block;
 }
 /* Main 6/6 */
 
@@ -241,6 +275,27 @@ a{
  .footer-top{
    background-color: blue;
    text-align: center;
+ }
+ .main-six-text-one{
+   color:rgb(92,106,136);
+   font-weight: 600;
+   line-height: 70px;
+   font-size: 20px;
+ }
+ .main-six-text-two{
+   color: rgb(3,28,78);
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 10px;
+ }
+ .main-six-text-three{
+   color: rgb(3,28,78);
+   font-weight: 600;
+ }
+ .main-six-box a{
+   color:rgb(1, 88, 255);
+   line-height: 50px;
+   font-size: 15px;
  }
  /* Parte superiore del footer */
 
