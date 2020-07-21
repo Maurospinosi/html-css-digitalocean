@@ -17,15 +17,29 @@ a{
   .main-three-box-angle{
     color: lightgrey;
   }
+  .header-box-input input{
+    padding-right: 36%;
+    width:95%;
+
+  }
 }
 @media screen and (min-width:769px) and (max-width:992px){
   .header-nav{
     display: none;
   }
+  .header-box-input input{
+    padding-right: 45%;
+    width:95%;
+
+  }
 }
 @media screen and (min-width:993px){
  .hamburger{
    display: none;
+ }
+ .header-box-input input{
+   width:95%;
+   padding-right: 50%;
  }
 }
 /* Parte superiore dell'header */
@@ -71,7 +85,7 @@ a{
 
 /* Parte inferiore dell'header */
 .jumbotron{
-  background-color: blue;
+  background-color: rgb(1, 88, 255);
   margin-top: 80px;
   margin-bottom: 0;
 }
@@ -81,6 +95,8 @@ a{
   height: 100%;
   width: 100%;
   text-align: center;
+  padding: 30px 0;
+  margin: auto;
 }
 .jumbotron-text h1{
   font-weight: 700;
@@ -95,11 +111,27 @@ a{
   color:rgb(1, 99, 255);
 }
 .header-box-input{
-  text-align: left;
-  margin-top: 20px;
+  text-align: center;
+  margin:20px 0px;
 }
-.header-box-input input{
-  padding-right: 50%;
+.create-button{
+  color: white;
+  background-color: rgb(87, 154, 255);
+  width: 95%;
+  font-weight: 700;
+  margin: auto;
+
+}
+.create-button-two{
+  font-weight: 700;
+  border: 1px rgb(87, 154, 255) solid;
+  color: rgb(87, 154, 255);
+  margin-bottom: 20px;
+  width: 95%;
+  margin: auto;
+}
+.header-box a{
+  text-decoration: underline;
 }
 /* Parte inferiore dell'header */
 
