@@ -131,9 +131,8 @@ a{
 }
 .header-box p{
   font-weight: 700;
-}
-.header-box p{
   color:rgb(1, 99, 255);
+  font-size: 30px;
 }
 .header-box-input{
   text-align: center;
@@ -334,7 +333,7 @@ a{
 /* Main 6/6 */
 
 /* Parte superiore del footer */
- .footer-top{
+.footer-top{
    background-color: rgb(0,53,174);
    text-align: center;
  }
@@ -365,7 +364,10 @@ a{
   padding-top: 10px;
   color:white;
 }
-
+.footer-bottom i{
+  font-size: 20px;
+  margin-right: 15px;
+}
 .padd{
   padding-left: 0;
 }
