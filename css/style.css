@@ -8,11 +8,19 @@ a{
   text-decoration: none;
 }
 .pad{
-  padding:30px 0;
+  padding:30px 0px;
+}
+@media screen and (max-width:440px){
+  .main-five-list-border{
+    font-size: 11px;
+  }
 }
 @media screen and (max-width:768px){
   .header-nav{
     display: none;
+  }
+  .jumbotron-text h1{
+    font-size: 50px;
   }
   .main-three-box-angle{
     color: rgb(249,249,249);
@@ -29,10 +37,27 @@ a{
     height: 350px;
     width: 350px;
   }
+  .logo{
+    width: 60px;
+    height: 60px;
+  }
+  .box-text-logo{
+    height: 70px;
+    font-size: 16px;
+    padding: 10px;
+  }
+  .arrow-right{
+    border-top: 23Px solid transparent;
+    border-bottom: 23px solid transparent;
+    border-left: 23px solid lightgrey;
+  }
 }
 @media screen and (min-width:769px) and (max-width:992px){
   .header-nav{
     display: none;
+  }
+  .jumbotron-text h1{
+    font-size: 55px;
   }
   .header-box-input input{
     padding-right: 45%;
@@ -49,10 +74,27 @@ a{
     height: 400px;
     width: 450px;
   }
+  .logo{
+    width: 65px;
+    height: 65px;
+  }
+  .box-text-logo{
+    height: 75px;
+    font-size: 18px;
+    padding: 11px;
+  }
+  .arrow-right{
+    border-top: 25Px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid lightgrey;
+  }
 }
 @media screen and (min-width:993px){
  .hamburger{
    display: none;
+ }
+ .jumbotron-text h1{
+   font-size: 65px;
  }
  .header-box-input input{
    width:95%;
@@ -69,7 +111,22 @@ a{
  .footer-bottom ul{
    margin: 0 20px;
  }
+ .logo{
+   width: 70px;
+   height: 70px;
+ }
+ .box-text-logo{
+   height: 80px;
+   font-size: 20px;
+   padding: 13px;
+ }
+ .arrow-right{
+   border-top: 20Px solid transparent;
+   border-bottom: 20px solid transparent;
+   border-left: 20px solid lightgrey;
+ }
 }
+
 /* Parte superiore dell'header */
 .header-top{
   line-height: 80px;
@@ -129,7 +186,6 @@ a{
 .jumbotron-text h1{
   font-weight: 700;
   color:white;
-  font-size: 60px;
 }
 .jumbotron-text p{
   color:white;
@@ -164,6 +220,9 @@ a{
 }
 .header-box a{
   text-decoration: underline;
+}
+.google{
+  float: left;
 }
 /* Parte inferiore dell'header */
 
@@ -281,9 +340,6 @@ a{
   font-weight: 700;
   font-size: 35px;
 }
-.main-five-list{
-  text-align: left;
-}
 .main-five-list-right{
   text-align: right;
 }
@@ -395,31 +451,23 @@ a{
   bottom: 10px;
   right: 10px;
   z-index: 1;
-  width: 60px;
-  height: 60px;
   border-radius: 10px;
 }
 .box-text-logo{
-  height: 80px;
-  width:400PX;
+  max-width:350PX;
   position: fixed;
   bottom:10px;
-  right:100px;
+  right:95px;
   z-index: 1;
   background-color: lightgrey;
   border-radius: 10px;
   font-weight: 600;
-  font-size: 20px;
-  padding: 15px;
 }
 .arrow-right {
   width: 0;
   height: 0;
-  border-top: 30px solid transparent;
-  border-bottom: 30px solid transparent;
-  border-left: 30px solid lightgrey;
   position: fixed;
-  bottom:10px;
+  bottom:20px;
   right:80px;
   z-index: 1;
 }
