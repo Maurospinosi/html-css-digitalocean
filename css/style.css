@@ -12,7 +12,16 @@ a{
 }
 @media screen and (max-width:440px){
   .main-five-list-border{
-    font-size: 11px;
+    font-size: 10px;
+  }
+  #main-five-text-one{
+    font-size: 10px;
+  }
+  .main-five-list-right{
+    font-size: 10px;
+  }
+  .main-five h2{
+    font-size: 25px;
   }
 }
 @media screen and (max-width:768px){
@@ -30,19 +39,19 @@ a{
     width:95%;
   }
   .main-three-box{
-    width: 400px;
-    height: 350px;
+    width: 319px;
+    height: 300px;
   }
   .main-six-box{
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 319px;
   }
   .logo{
     width: 60px;
     height: 60px;
   }
   .box-text-logo{
-    height: 70px;
+    height: 80px;
     font-size: 16px;
     padding: 10px;
   }
@@ -103,6 +112,9 @@ a{
  .main-three-box{
    width: 650px;
    height: 450px;
+ }
+ .main-five h2{
+   font-size: 35px;
  }
  .main-six-box{
    height: 450px;
@@ -338,7 +350,6 @@ a{
 }
 .main-five h2{
   font-weight: 700;
-  font-size: 35px;
 }
 .main-five-list-right{
   text-align: right;
